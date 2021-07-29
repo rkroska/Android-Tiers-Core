@@ -162,11 +162,11 @@ namespace MOARANDROIDS
                 }
             }
 
-            public override void Tended(float quality, int batchPosition = 0)
+            public override void Tended(float quality, float maxQuality = 100f, int batchPosition = 0)
             {
                 for (int i = 0; i < this.comps.Count; i++)
                 {
-                    this.comps[i].CompTended(quality, batchPosition);
+                    this.comps[i].CompTended(quality, maxQuality, batchPosition);
                 }
             }
 

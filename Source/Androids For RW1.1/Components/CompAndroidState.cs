@@ -258,7 +258,7 @@ namespace MOARANDROIDS
 
                             if (uploadRecipient.guest != null)
                             {
-                                uploadRecipient.guest.SetGuestStatus(null, false);
+                                uploadRecipient.guest.SetGuestStatus(null, GuestStatus.Prisoner);
                             }
                         }
 
@@ -272,7 +272,7 @@ namespace MOARANDROIDS
 
                             if (uploadRecipient.guest != null)
                             {
-                                uploadRecipient.guest.SetGuestStatus(Faction.OfPlayer, true);
+                                uploadRecipient.guest.SetGuestStatus(Faction.OfPlayer, GuestStatus.Guest);
                             }
                         }
 
