@@ -23,6 +23,7 @@ namespace MOARANDROIDS
         public float angleAdjustmentWest = 0f;
         public float angleAdjustmentNorth = 0f;
         public float angleAdjustmentSouth = 0f;
+        public Vector3 OffsetFromRotation(Verse.Rot4 r) { return new Vector3(r.FacingCell.x, r.FacingCell.y); }
 
         public GraphicData groundGraphic = null;
 

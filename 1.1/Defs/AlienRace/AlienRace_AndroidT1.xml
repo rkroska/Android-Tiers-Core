@@ -26,21 +26,21 @@
 				<maxDamageForSocialfight>6</maxDamageForSocialfight>
 				<immuneToAge>false</immuneToAge>
 				<disallowedTraits>
-					<li>DrugDesire</li>
-					<li>AnnoyingVoice</li>
-					<li>CreepyBreathing</li>
-					<li>Pyromaniac</li>
-					<li>Wimp</li>
-					<li>Masochist</li>
-					<li>NightOwl</li>
-					<li>Jealous</li>
-					<li>Nudist</li>
-					<li>Transhumanist</li>
-					<li>BodyPurist</li>
-					<li>SuperImmune</li>
-					<li>Beautiful</li>
-					<li>Tough</li>
-					<li>MechAtlas</li>
+					<li><defName>DrugDesire</defName></li>
+					<li><defName>AnnoyingVoice</defName></li>
+					<li><defName>CreepyBreathing</defName></li>
+					<li><defName>Pyromaniac</defName></li>
+					<li><defName>Wimp</defName></li>
+					<li><defName>Masochist</defName></li>
+					<li><defName>NightOwl</defName></li>
+					<li><defName>Jealous</defName></li>
+					<li><defName>Nudist</defName></li>
+					<li><defName>Transhumanist</defName></li>
+					<li><defName>BodyPurist</defName></li>
+					<li><defName>SuperImmune</defName></li>
+					<li><defName>Beautiful</defName></li>
+					<li><defName>Tough</defName></li>
+					<li><defName>MechAtlas</defName></li>
 				</disallowedTraits>
 				<notXenophobistTowards>
 					<li>Human</li>
